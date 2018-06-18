@@ -56,4 +56,19 @@
    안녕!
    ```
 
+6. layout
+
+   ```erb
+   <!-- 모든 html.erb파일은 기본적으로 app/views/layouts/application.html.erb의 영향을 받는다. -->
+   <html>
+       <head>
+       </head>
+       <body>
+           <%= yield %>
+       </body>
+   </html>
+   ```
+
    
+
+7. 

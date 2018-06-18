@@ -8,6 +8,11 @@ Rails.application.routes.draw do
   # lotto 액션으로 가
   get '/lotto' => 'home#lotto'
   get '/welcome/:name' => 'home#welcome'
+  get '/google' => 'home#google'
+  get '/game' => 'home#game'
+  get '/gameresult' => 'home#gameresult'
+  get '/newgame' => 'home#newgame'
+  get '/newgameresult' => 'home#newgameresult'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
 #
